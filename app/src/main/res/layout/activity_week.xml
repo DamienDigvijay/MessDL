@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devilcity.messdl.WeekActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/background"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/monday_text"
+        android:id="@+id/monday_button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="mondayClick" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tuesday_text"
+        android:id="@+id/tuesday_button"
+        android:layout_below="@+id/monday_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="tuesdayClick" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wednesday_text"
+        android:id="@+id/wednesday_button"
+        android:layout_below="@+id/tuesday_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="wednesdayClick" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/thursday_text"
+        android:id="@+id/thursday_button"
+        android:layout_below="@+id/wednesday_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="thursdayClick" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/friday_text"
+        android:id="@+id/friday_button"
+        android:layout_below="@+id/thursday_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="fridayClick" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saturday_text"
+        android:id="@+id/saturday_button"
+        android:layout_below="@+id/friday_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="saturdayClick" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sunday_text"
+        android:id="@+id/sunday_button"
+        android:layout_below="@+id/saturday_button"
+        android:layout_centerHorizontal="true"
+        android:onClick="sundayClick" />
+
+</RelativeLayout>
