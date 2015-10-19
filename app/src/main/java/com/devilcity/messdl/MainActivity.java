@@ -39,13 +39,13 @@ public class MainActivity extends ActionBarActivity {
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(i);
             }
-            if (hour >= 19 && hour < 21 || hour == 18 && min > 15) {
+            if (hour >= 19 && hour < 21 || hour == 18 && min > 15 || hour == 21 && min<30) {
                 Intent i = new Intent(this, MondayDinner.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(i);
             }
-            if (hour >= 21 && hour <= 23) {
+            if (hour > 21 && hour <= 23 || hour == 21 && min > 30) {
                 Intent i = new Intent(this, TuesdayBreakfast.class);
                 i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -72,13 +72,13 @@ public class MainActivity extends ActionBarActivity {
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 19 && hour < 21 || hour == 18 && min > 15) {
+                if (hour >= 19 && hour < 21 || hour == 18 && min > 15 || hour == 21 && min<30) {
                     Intent i = new Intent(this, TuesdayDinner.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 21 && hour <= 23) {
+                if (hour > 21 && hour <= 23 || hour == 21 && min > 30) {
                     Intent i = new Intent(this, WednesdayBreakfast.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -104,13 +104,13 @@ public class MainActivity extends ActionBarActivity {
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 19 && hour < 21 || hour == 18 && min > 15) {
+                if (hour >= 19 && hour < 21 || hour == 18 && min > 15 || hour == 21 && min<30) {
                     Intent i = new Intent(this, WednesdayDinner.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 21 && hour <=23) {
+                if (hour > 21 && hour <= 23 || hour == 21 && min > 30) {
                     Intent i = new Intent(this, ThursdayBreakfast.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -136,13 +136,13 @@ public class MainActivity extends ActionBarActivity {
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 19 && hour < 21 || hour == 18 && min > 15) {
+                if (hour >= 19 && hour < 21 || hour == 18 && min > 15 || hour == 21 && min<30) {
                     Intent i = new Intent(this, ThursdayDinner.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 21 && hour <=23) {
+                if (hour > 21 && hour <= 23 || hour == 21 && min > 30) {
                     Intent i = new Intent(this, FridayBreakfast.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -168,13 +168,13 @@ public class MainActivity extends ActionBarActivity {
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 19 && hour < 21 || hour == 18 && min > 15) {
+                if (hour >= 19 && hour < 21 || hour == 18 && min > 15 || hour == 21 && min<30) {
                     Intent i = new Intent(this, FridayDinner.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 21 && hour <=23) {
+                if (hour > 21 && hour <= 23 || hour == 21 && min > 30) {
                     Intent i = new Intent(this, SaturdayBreakfast.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -200,13 +200,13 @@ public class MainActivity extends ActionBarActivity {
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 19 && hour < 21 || hour == 18 && min > 15) {
+                if (hour >= 19 && hour < 21 || hour == 18 && min > 15 || hour == 21 && min<30) {
                     Intent i = new Intent(this, SaturdayDinner.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 21 && hour <=23) {
+                if (hour > 21 && hour <= 23 || hour == 21 && min > 30) {
                     Intent i = new Intent(this, SundayBreakfast.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -232,13 +232,13 @@ public class MainActivity extends ActionBarActivity {
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 19 && hour < 21 || hour == 18 && min > 15) {
+                if (hour >= 19 && hour < 21 || hour == 18 && min > 15 || hour == 21 && min<30) {
                     Intent i = new Intent(this, SundayDinner.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 }
-                if (hour >= 21 && hour <=23) {
+                if (hour > 21 && hour <= 23 || hour == 21 && min > 30) {
                     Intent i = new Intent(this, MondayBreakfast.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);

@@ -246,7 +246,7 @@
         </activity>
         <activity
             android:name=".DayActivityMonday"
-            android:label="@string/title_activity_day"
+            android:label="@string/title_activity_day_activity_monday"
             android:parentActivityName="com.devilcity.messdl.WeekActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

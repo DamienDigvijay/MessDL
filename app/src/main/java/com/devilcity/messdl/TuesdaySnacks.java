@@ -26,8 +26,14 @@ public class TuesdaySnacks extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Intent myIntent = new Intent(getApplicationContext(), DayActivityTuesday.class);
-        startActivityForResult(myIntent, 0);
+        if(android.R.id.home == item.getItemId()) {
+            Intent myIntent = new Intent(getApplicationContext(), DayActivityTuesday.class);
+            startActivityForResult(myIntent, 0);
+        }
+        if(R.id.action_home == item.getItemId()) {
+            Intent i = new Intent(this, MainActivity.class);
+            startActivity(i);
+        }
         return true;
 
     }

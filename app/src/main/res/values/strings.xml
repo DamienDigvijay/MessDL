@@ -88,7 +88,7 @@
     <string name="sunday_04">Chana Masala</string>
     <string name="sunday_04_time">Sunday@7:30pm</string>
     <string name="title_activity_week">WeekActivity</string>
-    <string name="title_activity_day">DayActivity</string>
+    <string name="title_activity_day_activity_monday">DayActivityMonday</string>
     <string name="title_activity_day_activity_tuesday">DayActivityTuesday</string>
     <string name="title_activity_day_activity_wednesday">DayActivityWednesday</string>
     <string name="title_activity_day_activity_thursday">DayActivityThursday</string>
