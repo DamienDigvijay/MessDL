@@ -26,6 +26,7 @@ public class MainActivity extends ActionBarActivity {
                 i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(i);
+
             }
             if (hour >= 9 && hour < 14) {
                 Intent i = new Intent(this, MondayLunch.class);

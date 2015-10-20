@@ -15,7 +15,6 @@ public class MondayDinner extends ActionBarActivity {
         setContentView(R.layout.activity_monday_dinner);
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setIcon(R.drawable.ic_launcher);
     }
 
     @Override

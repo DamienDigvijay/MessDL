@@ -1,12 +1,10 @@
 package com.devilcity.messdl;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import com.devilcity.messdl.R;
 
 
 public class ThursdaySnacks extends ActionBarActivity {
@@ -16,7 +14,6 @@ public class ThursdaySnacks extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thursday_snacks);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setIcon(R.drawable.ic_launcher);
     }
 
     @Override

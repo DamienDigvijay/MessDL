@@ -7,8 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.devilcity.messdl.R;
-
 public class WeekActivity extends ActionBarActivity{
 
     @Override
@@ -18,6 +16,8 @@ public class WeekActivity extends ActionBarActivity{
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.drawable.ic_launcher);
+        getSupportActionBar().setTitle("MessDL");
+
     }
 
     public void mondayClick(View v){

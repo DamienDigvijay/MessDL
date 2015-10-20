@@ -16,7 +16,7 @@
     <string name="title_activity_monday_dinner">MondayDinner</string>
     <string name="title_activity_monday_breakfast">MondayBreakfast</string>
     <string name="title_activity_tuesday_breakfast">TuesdayBreakfast</string>
-    <string name="tuesday_01">Chole Chulcha/Omlette</string>
+    <string name="tuesday_01">Chole Chulcha/Omelette</string>
     <string name="tuesday_01_time">Tuesday@7:30am</string>
     <string name="tuesday_02">Patta Gobie</string>
     <string name="tuesday_02_time">Tuesday@12:00pm</string>
@@ -55,7 +55,7 @@
     <string name="wednesday_03_time">Wednesday@5:15pm</string>
     <string name="wednesday_04">Kofta</string>
     <string name="wednesday_04_time">Wednesday@7:30pm</string>
-    <string name="thursday_01">SambarVada/Omlette</string>
+    <string name="thursday_01">SambarVada/Omelette</string>
     <string name="thursday_01_time">Thursday@7:30am</string>
     <string name="thursday_02">AalooPyaaz/ Kadi</string>
     <string name="thursday_02_time">Thursday@12:00pm</string>
@@ -79,7 +79,7 @@
     <string name="saturday_03_time">Saturday@5:15pm</string>
     <string name="saturday_04">Aaloo Matar/ Pudi</string>
     <string name="saturday_04_time">Saturday@7:30pm</string>
-    <string name="sunday_01">Samosa/ Omlette</string>
+    <string name="sunday_01">Samosa/ Omelette</string>
     <string name="sunday_01_time">Sunday@8:00am</string>
     <string name="sunday_02">Aaloo Parantha</string>
     <string name="sunday_02_time">Sunday@12:00pm</string>

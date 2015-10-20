@@ -15,7 +15,6 @@ public class FridayLunch extends ActionBarActivity {
         setContentView(R.layout.activity_friday_lunch);
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setIcon(R.drawable.ic_launcher);
     }
 
     @Override

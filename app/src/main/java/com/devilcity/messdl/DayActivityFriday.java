@@ -17,7 +17,7 @@ public class DayActivityFriday extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.day_activity_friday);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setIcon(R.drawable.ic_launcher);
+        getSupportActionBar().setTitle("Friday");
 
     }
 
