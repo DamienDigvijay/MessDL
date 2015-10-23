@@ -3,17 +3,27 @@ package com.devilcity.messdl;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
+import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.widget.Toast;
 
 
 public class WednesdayBreakfast extends ActionBarActivity {
+    private GestureDetector gestureDetector;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wednesday_breakfast);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        Toast toast1=Toast.makeText(this,"Yo its our current meal",Toast.LENGTH_LONG);
+        toast1.show();
+        gestureDetector = new GestureDetector(new SwipeGestureDetector());
+
+
     }
 
     @Override
@@ -22,7 +32,59 @@ public class WednesdayBreakfast extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_wednesday_breakfast, menu);
         return true;
     }
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        if (gestureDetector.onTouchEvent(event)) {
+            return true;
+        }
+        return super.onTouchEvent(event);
+    }
 
+    private void onLeftSwipe() {
+        Intent a = new Intent(this,WednesdayLunch.class);
+        startActivity(a);
+    }
+
+    private void onRightSwipe() {
+        Intent a = new Intent(this,TuesdayDinner.class);
+        startActivity(a);
+    }
+
+    // Private class for gestures
+    private class SwipeGestureDetector
+            extends GestureDetector.SimpleOnGestureListener {
+        // Swipe properties, you can change it to make the swipe
+        // longer or shorter and speed
+        private static final int SWIPE_MIN_DISTANCE = 120;
+        private static final int SWIPE_MAX_OFF_PATH = 200;
+        private static final int SWIPE_THRESHOLD_VELOCITY = 200;
+
+        @Override
+        public boolean onFling(MotionEvent e1, MotionEvent e2,
+                               float velocityX, float velocityY) {
+            try {
+                float diffAbs = Math.abs(e1.getY() - e2.getY());
+                float diff = e1.getX() - e2.getX();
+
+                if (diffAbs > SWIPE_MAX_OFF_PATH)
+                    return false;
+
+                // Left swipe
+                if (diff > SWIPE_MIN_DISTANCE
+                        && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
+                    WednesdayBreakfast.this.onLeftSwipe();
+
+                    // Right swipe
+                } else if (-diff > SWIPE_MIN_DISTANCE
+                        && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
+                    WednesdayBreakfast.this.onRightSwipe();
+                }
+            } catch (Exception e) {
+                Log.e("YourActivity", "Error on gestures");
+            }
+            return false;
+        }
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(android.R.id.home == item.getItemId()) {
@@ -36,4 +98,6 @@ public class WednesdayBreakfast extends ActionBarActivity {
         return true;
 
     }
+
 }
+
