@@ -20,9 +20,10 @@
         android:text="@string/friday_03"
         android:id="@+id/textView"
         android:textSize="33dp"
-        android:layout_above="@+id/textView2"
+        android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/textView2"
-        android:layout_alignEnd="@+id/textView2" />
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginTop="70dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,7 +31,7 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/friday_03_time"
         android:id="@+id/textView2"
-        android:layout_above="@+id/imageButton"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="39dp" />
 

@@ -21,7 +21,8 @@
         android:textSize="33dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/wednesday_02" />
+        android:text="@string/wednesday_02"
+        android:layout_marginTop="70dp" />
 
     <TextView
         android:layout_width="wrap_content"

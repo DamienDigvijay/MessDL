@@ -23,7 +23,8 @@
         android:layout_centerHorizontal="true"
         android:text="@string/monday_01"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="33dp" />
+        android:textSize="33dp"
+        android:layout_marginTop="70dp" />
 
     <TextView
         android:id="@+id/textView2"
