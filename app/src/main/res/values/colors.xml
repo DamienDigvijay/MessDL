@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="apptheme00_color">#ffbb33</color>
+    <color name="apptheme00_color">#b71c1c</color>
+    <color name="ColorPrimary">#f4511e</color>
+    <color name="ColorPrimaryDark">#000000</color>
 </resources>

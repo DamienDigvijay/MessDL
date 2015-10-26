@@ -18,9 +18,9 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/friday_01"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="33dp" />
+        android:textSize="33dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,8 +28,9 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/friday_01_time"
         android:id="@+id/textView2"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp" />
 
     <ImageButton
         android:layout_width="wrap_content"
