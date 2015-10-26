@@ -8,7 +8,6 @@ import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
-import android.widget.Toast;
 
 
 public class WednesdayBreakfast extends ActionBarActivity {
@@ -19,9 +18,9 @@ public class WednesdayBreakfast extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wednesday_breakfast);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        //Toast toast1=Toast.makeText(this,"Yo its our current meal",Toast.LENGTH_LONG);
-        //toast1.show();
         gestureDetector = new GestureDetector(new SwipeGestureDetector());
+
+
     }
 
     @Override
@@ -41,13 +40,13 @@ public class WednesdayBreakfast extends ActionBarActivity {
     private void onLeftSwipe() {
         Intent a = new Intent(this,WednesdayLunch.class);
         startActivity(a);
-        overridePendingTransition(R.anim.left_in, R.anim.left_out);
+        overridePendingTransition(R.anim.left_in,R.anim.left_out);
     }
 
     private void onRightSwipe() {
         Intent a = new Intent(this,TuesdayDinner.class);
         startActivity(a);
-        overridePendingTransition(R.anim.right_in, R.anim.right_out);
+        overridePendingTransition(R.anim.right_in,R.anim.right_out);
     }
 
     // Private class for gestures

@@ -18,7 +18,7 @@ public class MainActivity extends ActionBarActivity {
         int day = calendar.get(Calendar.DAY_OF_WEEK);
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
         int min = calendar.get(Calendar.MINUTE);
-        //.asshoiel
+
 
         if(day == Calendar.MONDAY) {
             if (hour >= 0 && hour < 9) {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="apptheme00_color">#b71c1c</color>
-    <color name="ColorPrimary">#f4511e</color>
+    <color name="ColorPrimary">#ff9800</color>
     <color name="ColorPrimaryDark">#000000</color>
 </resources>
