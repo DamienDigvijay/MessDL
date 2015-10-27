@@ -20,6 +20,7 @@ public class DayActivityFriday extends ActionBarActivity {
         getSupportActionBar().setTitle("Friday");
         getSupportActionBar().setElevation(0);
 
+
     }
 
     public void breakfastClick(View v) {

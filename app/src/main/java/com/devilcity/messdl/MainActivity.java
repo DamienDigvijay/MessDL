@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import java.util.Calendar;
 
@@ -18,6 +19,8 @@ public class MainActivity extends ActionBarActivity {
         int day = calendar.get(Calendar.DAY_OF_WEEK);
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
         int min = calendar.get(Calendar.MINUTE);
+        Toast.makeText(getApplicationContext(),
+                "Current Meal", Toast.LENGTH_SHORT).show();
 
 
         if(day == Calendar.MONDAY) {
