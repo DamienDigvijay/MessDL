@@ -38,7 +38,7 @@ public class TuesdayLunch extends ActionBarActivity {
     }
 
     private void onRightSwipe() {
-        Intent a = new Intent(this, TuesdayBreakfast.class);
+        Intent a = new Intent(this, DayActivityTuesday.class);
         startActivity(a);
         overridePendingTransition(R.anim.right_in, R.anim.right_out);
     }
@@ -50,7 +50,7 @@ public class TuesdayLunch extends ActionBarActivity {
         // longer or shorter and speed
         private static final int SWIPE_MIN_DISTANCE = 80;
         private static final int SWIPE_MAX_OFF_PATH = 200;
-        private static final int SWIPE_THRESHOLD_VELOCITY = 160;
+        private static final int SWIPE_THRESHOLD_VELOCITY = 120;
 
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2,

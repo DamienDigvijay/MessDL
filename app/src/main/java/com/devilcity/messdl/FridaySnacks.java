@@ -12,6 +12,7 @@ import android.view.MotionEvent;
 
 public class FridaySnacks extends ActionBarActivity {
     private GestureDetector gestureDetector;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +40,7 @@ public class FridaySnacks extends ActionBarActivity {
     }
 
     private void onRightSwipe() {
-        Intent a = new Intent(this, FridayLunch.class);
+        Intent a = new Intent(this, DayActivityFriday.class);
         startActivity(a);
         overridePendingTransition(R.anim.right_in, R.anim.right_out);
     }
@@ -51,7 +52,7 @@ public class FridaySnacks extends ActionBarActivity {
         // longer or shorter and speed
         private static final int SWIPE_MIN_DISTANCE = 80;
         private static final int SWIPE_MAX_OFF_PATH = 200;
-        private static final int SWIPE_THRESHOLD_VELOCITY = 160;
+        private static final int SWIPE_THRESHOLD_VELOCITY = 120;
 
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2,
@@ -89,11 +90,11 @@ public class FridaySnacks extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(android.R.id.home == item.getItemId()) {
+        if (android.R.id.home == item.getItemId()) {
             Intent myIntent = new Intent(getApplicationContext(), DayActivityFriday.class);
             startActivityForResult(myIntent, 0);
         }
-        if(R.id.action_home == item.getItemId()) {
+        if (R.id.action_home == item.getItemId()) {
             Intent i = new Intent(this, MainActivity.class);
             startActivity(i);
         }
