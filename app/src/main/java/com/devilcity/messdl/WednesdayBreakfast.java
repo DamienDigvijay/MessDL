@@ -18,6 +18,9 @@ public class WednesdayBreakfast extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wednesday_breakfast);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setTitle("WedBreakfast");
+
+        getSupportActionBar().setElevation(0);
         gestureDetector = new GestureDetector(new SwipeGestureDetector());
 
 

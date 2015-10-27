@@ -14,6 +14,9 @@ public class TuesdayBreakfast extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tuesday_breakfast);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setTitle("ThuBreakfast");
+
+        getSupportActionBar().setElevation(0);
     }
 
     @Override

@@ -17,6 +17,8 @@ public class DayActivitySaturday extends ActionBarActivity {
         setContentView(R.layout.day_activity_saturday);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setTitle("Saturday");
+
+        getSupportActionBar().setElevation(0);
     }
 
     public void breakfastClick(View v) {

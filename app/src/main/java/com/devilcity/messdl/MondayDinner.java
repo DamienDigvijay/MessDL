@@ -15,6 +15,9 @@ public class MondayDinner extends ActionBarActivity {
         setContentView(R.layout.activity_monday_dinner);
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setTitle("MonDinner");
+
+        getSupportActionBar().setElevation(0);
     }
 
     @Override

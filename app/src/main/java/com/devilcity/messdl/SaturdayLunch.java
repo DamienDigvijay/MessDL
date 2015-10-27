@@ -14,6 +14,9 @@ public class SaturdayLunch extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saturday_lunch);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setTitle("SatLunch");
+
+        getSupportActionBar().setElevation(0);
     }
 
     @Override

@@ -14,6 +14,9 @@ public class ThursdayDinner extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thursday_dinner);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setTitle("ThuDinner");
+
+        getSupportActionBar().setElevation(0);
     }
 
     @Override

@@ -14,6 +14,9 @@ public class ThursdaySnacks extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thursday_snacks);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setTitle("ThuSnacks");
+
+        getSupportActionBar().setElevation(0);
     }
 
     @Override

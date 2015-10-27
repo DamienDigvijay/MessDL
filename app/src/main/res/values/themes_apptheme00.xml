@@ -7,10 +7,13 @@
 
   <style name="_AppTheme00" parent="Theme.AppCompat.Light">
 
+    <item name="android:textColorPrimary">#ffffff</item>
+
     <item name="android:editTextStyle">@style/EditTextAppTheme00</item>
 
-      <item name="colorPrimary">@color/ColorPrimary</item>
-      <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+    <item name="colorPrimary">@color/ColorPrimary</item>
+
+    <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
 
     <item name="android:textColorHighlight">#99ffbb33</item>
 

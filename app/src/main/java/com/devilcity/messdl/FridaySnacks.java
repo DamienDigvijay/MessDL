@@ -15,6 +15,9 @@ public class FridaySnacks extends ActionBarActivity {
         setContentView(R.layout.activity_friday_snacks);
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setTitle("FriSnacks");
+
+        getSupportActionBar().setElevation(0);
     }
 
     @Override

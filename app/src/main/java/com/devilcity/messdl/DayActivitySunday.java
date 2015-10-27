@@ -18,6 +18,8 @@ public class DayActivitySunday extends ActionBarActivity {
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setTitle("Sunday");
+
+        getSupportActionBar().setElevation(0);
     }
 
     public void breakfastClick(View v) {

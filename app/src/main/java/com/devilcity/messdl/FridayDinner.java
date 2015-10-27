@@ -15,6 +15,9 @@ public class FridayDinner extends ActionBarActivity {
         setContentView(R.layout.activity_friday_dinner);
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setTitle("FriDinner");
+
+        getSupportActionBar().setElevation(0);
     }
 
     @Override

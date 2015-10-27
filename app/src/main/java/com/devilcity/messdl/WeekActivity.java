@@ -17,6 +17,7 @@ public class WeekActivity extends ActionBarActivity{
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.drawable.ic_launcher);
         getSupportActionBar().setTitle("MessDL");
+        getSupportActionBar().setElevation(0);
 
     }
 

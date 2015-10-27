@@ -14,6 +14,9 @@ public class SundayDinner extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sunday_dinner);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setTitle("SunDinner");
+
+        getSupportActionBar().setElevation(0);
     }
 
     @Override
