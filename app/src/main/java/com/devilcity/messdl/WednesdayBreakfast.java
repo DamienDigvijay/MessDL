@@ -22,8 +22,6 @@ public class WednesdayBreakfast extends ActionBarActivity {
 
         getSupportActionBar().setElevation(0);
         gestureDetector = new GestureDetector(new SwipeGestureDetector());
-
-
     }
 
     @Override
@@ -47,7 +45,7 @@ public class WednesdayBreakfast extends ActionBarActivity {
     }
 
     private void onRightSwipe() {
-        Intent a = new Intent(this,TuesdayDinner.class);
+        Intent a = new Intent(this, DayActivityWednesday.class);
         startActivity(a);
         overridePendingTransition(R.anim.right_in,R.anim.right_out);
     }
@@ -98,8 +96,6 @@ public class WednesdayBreakfast extends ActionBarActivity {
             startActivity(i);
         }
         return true;
-
     }
-    //assdikcfn
 }
 

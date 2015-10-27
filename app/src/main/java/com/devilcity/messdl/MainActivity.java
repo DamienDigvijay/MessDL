@@ -22,7 +22,6 @@ public class MainActivity extends ActionBarActivity {
         Toast.makeText(getApplicationContext(),
                 "Current Meal", Toast.LENGTH_SHORT).show();
 
-
         if(day == Calendar.MONDAY) {
             if (hour >= 0 && hour < 9) {
                 Intent i = new Intent(this, MondayBreakfast.class);
