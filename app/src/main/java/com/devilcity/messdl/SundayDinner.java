@@ -31,11 +31,11 @@ public class SundayDinner extends ActionBarActivity {
         return super.onTouchEvent(event);
     }
 
-  /*  private void onLeftSwipe() {
-        Intent a = new Intent(this,WednesdayDinner.class);
+    private void onLeftSwipe() {
+        Intent a = new Intent(this, MondayBreakfast.class);
         startActivity(a);
         overridePendingTransition(R.anim.left_in,R.anim.left_out);
-    }*/
+    }
 
     private void onRightSwipe() {
         Intent a = new Intent(this, SundaySnacks.class);
@@ -48,9 +48,9 @@ public class SundayDinner extends ActionBarActivity {
             extends GestureDetector.SimpleOnGestureListener {
         // Swipe properties, you can change it to make the swipe
         // longer or shorter and speed
-        private static final int SWIPE_MIN_DISTANCE = 120;
+        private static final int SWIPE_MIN_DISTANCE = 80;
         private static final int SWIPE_MAX_OFF_PATH = 200;
-        private static final int SWIPE_THRESHOLD_VELOCITY = 100;
+        private static final int SWIPE_THRESHOLD_VELOCITY = 160;
 
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2,
@@ -62,13 +62,13 @@ public class SundayDinner extends ActionBarActivity {
                 if (diffAbs > SWIPE_MAX_OFF_PATH)
                     return false;
 
-              /*  // Left swipe
+                // Left swipe
                 if (diff > SWIPE_MIN_DISTANCE
                         && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
                     SundayDinner.this.onLeftSwipe();
 
                     // Right swipe
-                }*/
+                }
                 else if (-diff > SWIPE_MIN_DISTANCE
                         && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
                     SundayDinner.this.onRightSwipe();

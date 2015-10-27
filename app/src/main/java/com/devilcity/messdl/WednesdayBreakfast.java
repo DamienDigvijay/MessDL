@@ -45,7 +45,7 @@ public class WednesdayBreakfast extends ActionBarActivity {
     }
 
     private void onRightSwipe() {
-        Intent a = new Intent(this, DayActivityWednesday.class);
+        Intent a = new Intent(this, TuesdayDinner.class);
         startActivity(a);
         overridePendingTransition(R.anim.right_in,R.anim.right_out);
     }
@@ -55,9 +55,9 @@ public class WednesdayBreakfast extends ActionBarActivity {
             extends GestureDetector.SimpleOnGestureListener {
         // Swipe properties, you can change it to make the swipe
         // longer or shorter and speed
-        private static final int SWIPE_MIN_DISTANCE = 120;
+        private static final int SWIPE_MIN_DISTANCE = 80;
         private static final int SWIPE_MAX_OFF_PATH = 200;
-        private static final int SWIPE_THRESHOLD_VELOCITY = 100;
+        private static final int SWIPE_THRESHOLD_VELOCITY = 160;
 
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2,
