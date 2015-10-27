@@ -41,6 +41,6 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/capture01" />
+        android:src="@drawable/monday" />
 
 </RelativeLayout>

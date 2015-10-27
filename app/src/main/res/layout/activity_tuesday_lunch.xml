@@ -33,12 +33,12 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
-    <ImageButton
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/capture06" />
+        android:layout_centerVertical="true"
+        android:src="@drawable/tuesday2" />
 
 </RelativeLayout>
