@@ -96,8 +96,11 @@ public class SaturdaySnacks extends ActionBarActivity {
             Intent i = new Intent(this, MainActivity.class);
             startActivity(i);
         }
-            return true;
-
+        if(R.id.About_us == item.getItemId()) {
+            Intent i = new Intent(this, AboutUs.class);
+            startActivity(i);
         }
+        return true;
     }
+}
 

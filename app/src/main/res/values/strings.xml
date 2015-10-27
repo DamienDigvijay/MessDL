@@ -106,5 +106,7 @@
     <string name="friday_text">Friday</string>
     <string name="saturday_text">Saturday</string>
     <string name="sunday_text">Sunday</string>
-    <string name="Home">Home</string>string>
+    <string name="Home">Home</string>
+    <string name="About_Us">About Us</string>
+    <string name="title_activity_about_us">AboutUs</string>
 </resources>

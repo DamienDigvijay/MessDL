@@ -3,4 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
     <item android:id="@+id/action_home" android:title="@string/Home"
         android:orderInCategory="100" app:showAsAction="always" android:icon="@drawable/ic_home_white_24dp" />
+    <item android:id="@+id/About_us" android:title="@string/About_Us"
+        android:orderInCategory="100" app:showAsAction="never"  />
 </menu>

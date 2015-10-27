@@ -1,9 +1,8 @@
 package com.devilcity.messdl;
 
 import android.content.Intent;
-import android.gesture.GestureLibraries;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.Menu;
@@ -98,7 +97,10 @@ public class FridayLunch extends ActionBarActivity {
             Intent i = new Intent(this, MainActivity.class);
             startActivity(i);
         }
+        if(R.id.About_us == item.getItemId()) {
+            Intent i = new Intent(this, AboutUs.class);
+            startActivity(i);
+        }
         return true;
-
     }
 }

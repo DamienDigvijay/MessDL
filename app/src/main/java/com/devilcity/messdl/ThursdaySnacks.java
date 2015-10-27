@@ -1,7 +1,6 @@
 package com.devilcity.messdl;
 
 import android.content.Intent;
-import android.gesture.Gesture;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -97,7 +96,10 @@ public class ThursdaySnacks extends ActionBarActivity {
             Intent i = new Intent(this, MainActivity.class);
             startActivity(i);
         }
+        if(R.id.About_us == item.getItemId()) {
+            Intent i = new Intent(this, AboutUs.class);
+            startActivity(i);
+        }
         return true;
-
     }
 }

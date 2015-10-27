@@ -68,6 +68,10 @@ public class WeekActivity extends ActionBarActivity{
             Intent i = new Intent(this, MainActivity.class);
             startActivity(i);
         }
+        if(R.id.About_us == item.getItemId()) {
+            Intent i = new Intent(this, AboutUs.class);
+            startActivity(i);
+        }
         return true;
     }
 }

@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme00" >
         <activity
-            android:name="com.devilcity.messdl.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.devilcity.messdl.MondayBreakfast"
+            android:name=".MondayBreakfast"
             android:label="@string/title_activity_monday_breakfast"
             android:parentActivityName=".DayActivityMonday" >
             <meta-data
@@ -25,7 +25,7 @@
                 android:value="com.devilcity.messdl.DayActivityMonday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.MondayLunch"
+            android:name=".MondayLunch"
             android:label="@string/title_activity_monday_lunch"
             android:parentActivityName=".DayActivityMonday" >
             <meta-data
@@ -33,7 +33,7 @@
                 android:value="com.devilcity.messdl.DayActivityMonday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.MondaySnacks"
+            android:name=".MondaySnacks"
             android:label="@string/title_activity_monday_snacks"
             android:parentActivityName=".DayActivityMonday" >
             <meta-data
@@ -41,7 +41,7 @@
                 android:value="com.devilcity.messdl.DayActivityMonday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.MondayDinner"
+            android:name=".MondayDinner"
             android:label="@string/title_activity_monday_dinner"
             android:parentActivityName=".DayActivityMonday" >
             <meta-data
@@ -49,7 +49,7 @@
                 android:value="com.devilcity.messdl.DayActivityMonday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.TuesdayBreakfast"
+            android:name=".TuesdayBreakfast"
             android:label="@string/title_activity_tuesday_breakfast"
             android:parentActivityName=".DayActivityTuesday" >
             <meta-data
@@ -57,7 +57,7 @@
                 android:value="com.devilcity.messdl.DayActivityTuesday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.TuesdayLunch"
+            android:name=".TuesdayLunch"
             android:label="@string/title_activity_tuesday_lunch"
             android:parentActivityName=".DayActivityTuesday" >
             <meta-data
@@ -65,7 +65,7 @@
                 android:value="com.devilcity.messdl.DayActivityTuesday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.TuesdaySnacks"
+            android:name=".TuesdaySnacks"
             android:label="@string/title_activity_tuesday_snacks"
             android:parentActivityName=".DayActivityTuesday" >
             <meta-data
@@ -73,7 +73,7 @@
                 android:value="com.devilcity.messdl.DayActivityTuesday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.TuesdayDinner"
+            android:name=".TuesdayDinner"
             android:label="@string/title_activity_tuesday_dinner"
             android:parentActivityName=".DayActivityTuesday" >
             <meta-data
@@ -81,7 +81,7 @@
                 android:value="com.devilcity.messdl.DayActivityTuesday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.WednesdayBreakfast"
+            android:name=".WednesdayBreakfast"
             android:label="@string/title_activity_wednesday_breakfast"
             android:parentActivityName=".DayActivityWednesday" >
             <meta-data
@@ -89,7 +89,7 @@
                 android:value="com.devilcity.messdl.DayActivityWednesday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.WednesdayLunch"
+            android:name=".WednesdayLunch"
             android:label="@string/title_activity_wednesday_lunch"
             android:parentActivityName=".DayActivityWednesday" >
             <meta-data
@@ -97,7 +97,7 @@
                 android:value="com.devilcity.messdl.DayActivityWednesday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.WednesdaySnacks"
+            android:name=".WednesdaySnacks"
             android:label="@string/title_activity_wednesday_snacks"
             android:parentActivityName=".DayActivityWednesday" >
             <meta-data
@@ -105,7 +105,7 @@
                 android:value="com.devilcity.messdl.DayActivityWednesday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.WednesdayDinner"
+            android:name=".WednesdayDinner"
             android:label="@string/title_activity_wednesday_dinner"
             android:parentActivityName=".DayActivityWednesday" >
             <meta-data
@@ -113,7 +113,7 @@
                 android:value="com.devilcity.messdl.DayActivityWednesday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.ThursdayBreakfast"
+            android:name=".ThursdayBreakfast"
             android:label="@string/title_activity_thursday_breakfast"
             android:parentActivityName=".DayActivityThursday" >
             <meta-data
@@ -121,7 +121,7 @@
                 android:value="com.devilcity.messdl.DayActivityThursday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.ThursdayLunch"
+            android:name=".ThursdayLunch"
             android:label="@string/title_activity_thursday_lunch"
             android:parentActivityName=".DayActivityThursday" >
             <meta-data
@@ -129,7 +129,7 @@
                 android:value="com.devilcity.messdl.DayActivityThursday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.ThursdaySnacks"
+            android:name=".ThursdaySnacks"
             android:label="@string/title_activity_thursday_snacks"
             android:parentActivityName=".DayActivityThursday" >
             <meta-data
@@ -137,7 +137,7 @@
                 android:value="com.devilcity.messdl.DayActivityThursday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.ThursdayDinner"
+            android:name=".ThursdayDinner"
             android:label="@string/title_activity_thursday_dinner"
             android:parentActivityName=".DayActivityThursday" >
             <meta-data
@@ -145,7 +145,7 @@
                 android:value="com.devilcity.messdl.DayActivityThursday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.FridayLunch"
+            android:name=".FridayLunch"
             android:label="@string/title_activity_friday_lunch"
             android:parentActivityName=".DayActivityFriday" >
             <meta-data
@@ -153,7 +153,7 @@
                 android:value="com.devilcity.messdl.DayActivityFriday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.FridayBreakfast"
+            android:name=".FridayBreakfast"
             android:label="@string/title_activity_friday_breakfast"
             android:parentActivityName=".DayActivityFriday" >
             <meta-data
@@ -161,7 +161,7 @@
                 android:value="com.devilcity.messdl.DayActivityFriday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.FridayDinner"
+            android:name=".FridayDinner"
             android:label="@string/title_activity_friday_dinner"
             android:parentActivityName=".DayActivityFriday" >
             <meta-data
@@ -169,7 +169,7 @@
                 android:value="com.devilcity.messdl.DayActivityFriday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.FridaySnacks"
+            android:name=".FridaySnacks"
             android:label="@string/title_activity_friday_snacks"
             android:parentActivityName=".DayActivityFriday" >
             <meta-data
@@ -177,7 +177,7 @@
                 android:value="com.devilcity.messdl.DayActivityFriday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.SaturdayBreakfast"
+            android:name=".SaturdayBreakfast"
             android:label="@string/title_activity_saturday_breakfast"
             android:parentActivityName=".DayActivitySaturday" >
             <meta-data
@@ -185,7 +185,7 @@
                 android:value="com.devilcity.messdl.DayActivitySaturday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.SaturdayLunch"
+            android:name=".SaturdayLunch"
             android:label="@string/title_activity_saturday_lunch"
             android:parentActivityName=".DayActivitySaturday" >
             <meta-data
@@ -193,7 +193,7 @@
                 android:value="com.devilcity.messdl.DayActivitySaturday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.SaturdayDinner"
+            android:name=".SaturdayDinner"
             android:label="@string/title_activity_saturday_dinner"
             android:parentActivityName=".DayActivitySaturday" >
             <meta-data
@@ -201,7 +201,7 @@
                 android:value="com.devilcity.messdl.DayActivitySaturday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.SaturdaySnacks"
+            android:name=".SaturdaySnacks"
             android:label="@string/title_activity_saturday_snacks"
             android:parentActivityName=".DayActivitySaturday" >
             <meta-data
@@ -209,7 +209,7 @@
                 android:value="com.devilcity.messdl.DayActivitySaturday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.SundayDinner"
+            android:name=".SundayDinner"
             android:label="@string/title_activity_sunday_dinner"
             android:parentActivityName=".DayActivitySunday" >
             <meta-data
@@ -217,7 +217,7 @@
                 android:value="com.devilcity.messdl.DayActivitySunday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.SundayLunch"
+            android:name=".SundayLunch"
             android:label="@string/title_activity_sunday_lunch"
             android:parentActivityName=".DayActivitySunday" >
             <meta-data
@@ -225,7 +225,7 @@
                 android:value="com.devilcity.messdl.DayActivitySunday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.SundayBreakfast"
+            android:name=".SundayBreakfast"
             android:label="@string/title_activity_sunday_breakfast"
             android:parentActivityName=".DayActivitySunday" >
             <meta-data
@@ -233,7 +233,7 @@
                 android:value="com.devilcity.messdl.DayActivitySunday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.SundaySnacks"
+            android:name=".SundaySnacks"
             android:label="@string/title_activity_sunday_snacks"
             android:parentActivityName=".DayActivitySunday" >
             <meta-data
@@ -241,13 +241,13 @@
                 android:value="com.devilcity.messdl.DayActivitySunday" />
         </activity>
         <activity
-            android:name="com.devilcity.messdl.WeekActivity"
+            android:name=".WeekActivity"
             android:label="@string/title_activity_week" >
         </activity>
         <activity
             android:name=".DayActivityMonday"
             android:label="@string/title_activity_day_activity_monday"
-            android:parentActivityName="com.devilcity.messdl.WeekActivity" >
+            android:parentActivityName=".WeekActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.devilcity.messdl.WeekActivity" />
@@ -255,7 +255,7 @@
         <activity
             android:name=".DayActivityTuesday"
             android:label="@string/title_activity_day_activity_tuesday"
-            android:parentActivityName="com.devilcity.messdl.WeekActivity" >
+            android:parentActivityName=".WeekActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.devilcity.messdl.WeekActivity" />
@@ -263,7 +263,7 @@
         <activity
             android:name=".DayActivityWednesday"
             android:label="@string/title_activity_day_activity_wednesday"
-            android:parentActivityName="com.devilcity.messdl.WeekActivity" >
+            android:parentActivityName=".WeekActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.devilcity.messdl.WeekActivity" />
@@ -271,7 +271,7 @@
         <activity
             android:name=".DayActivityThursday"
             android:label="@string/title_activity_day_activity_thursday"
-            android:parentActivityName="com.devilcity.messdl.WeekActivity" >
+            android:parentActivityName=".WeekActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.devilcity.messdl.WeekActivity" />
@@ -287,7 +287,7 @@
         <activity
             android:name=".DayActivitySaturday"
             android:label="@string/title_activity_day_activity_saturday"
-            android:parentActivityName="com.devilcity.messdl.WeekActivity" >
+            android:parentActivityName=".WeekActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.devilcity.messdl.WeekActivity" />
@@ -295,10 +295,15 @@
         <activity
             android:name=".DayActivitySunday"
             android:label="@string/title_activity_day_activity_sunday"
-            android:parentActivityName="com.devilcity.messdl.WeekActivity" >
+            android:parentActivityName=".WeekActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.devilcity.messdl.WeekActivity" />
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us" >
+
         </activity>
     </application>
 
