@@ -38,7 +38,7 @@ public class ThursdayBreakfast extends ActionBarActivity {
     }
 
     private void onRightSwipe() {
-        Intent a = new Intent(this, DayActivityThursday.class);
+        Intent a = new Intent(this, WednesdayDinner.class);
         startActivity(a);
         overridePendingTransition(R.anim.right_in, R.anim.right_out);
     }
