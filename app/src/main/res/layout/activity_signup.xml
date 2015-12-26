@@ -55,5 +55,6 @@
         android:layout_gravity="center_horizontal"
         android:background="#39a344"
         android:textSize="20sp"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:padding="15dp" />
 </LinearLayout>

@@ -25,9 +25,6 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
 
-        Parse.enableLocalDatastore(this);
-        Parse.initialize(this);
-
         mName = (EditText) findViewById(R.id.Name);
         mEmail = (EditText) findViewById(R.id.Email);
         mMobileNumber = (EditText) findViewById(R.id.MobileNumber);
