@@ -52,9 +52,8 @@ public class SignupActivity extends AppCompatActivity {
                     public void done(ParseException e) {
                         if (e == null) {
                             //Sign up successful.
-                            Toast.makeText(SignupActivity.this,"Success",Toast.LENGTH_SHORT).show();
-                            //Intent loginPage = new Intent(SignupActivity.this,LoginActivity.class);
-                            //startActivity(loginPage);
+                            Intent currentMeal = new Intent(SignupActivity.this,MainActivity.class);
+                            startActivity(currentMeal);
 
                         } else {
                             //Error Signing up.

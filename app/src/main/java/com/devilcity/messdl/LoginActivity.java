@@ -4,6 +4,7 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -137,7 +138,8 @@ public class LoginActivity extends AppCompatActivity {
             ParseUser.logInInBackground(mobileNumber, password, new LogInCallback() {
                 public void done(ParseUser user, ParseException e) {
                     if (user != null) {
-                        Toast.makeText(LoginActivity.this,"Logged In!",Toast.LENGTH_SHORT).show();
+                        Intent currentMeal = new Intent(LoginActivity.this,MainActivity.class);
+                        startActivity(currentMeal);
                     } else {
                         // Signup failed. Look at the ParseException to see what happened.
                         AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
