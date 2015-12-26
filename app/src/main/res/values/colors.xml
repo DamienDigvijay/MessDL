@@ -3,4 +3,6 @@
     <color name="apptheme00_color">#b71c1c</color>
     <color name="ColorPrimary">#EF6C00</color>
     <color name="ColorPrimaryDark">#EF6C00</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>
