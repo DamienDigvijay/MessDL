@@ -53,7 +53,9 @@ public class SignupActivity extends AppCompatActivity {
                         if (e == null) {
                             //Sign up successful.
                             Intent currentMeal = new Intent(SignupActivity.this,MainActivity.class);
-                            startActivity(currentMeal);
+                            currentMeal.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                   	    currentMeal.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+		            startActivity(currentMeal);
 
                         } else {
                             //Error Signing up.
@@ -74,6 +76,5 @@ public class SignupActivity extends AppCompatActivity {
                 });
             }
         });
-
     }
 }

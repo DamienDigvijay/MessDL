@@ -10,25 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.devilcity.messdl.LoginActivity"
     android:weightSum="1"
-    android:background="#ffffff">
-
-    <ProgressBar
-        android:id="@+id/login_progress"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:visibility="gone" />
+    android:background="@drawable/background">
 
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.95"
+        android:layout_weight="1"
         android:fillViewport="false">
 
         <LinearLayout
-            android:id="@+id/email_login_form"
+            android:id="@+id/mobile_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -37,7 +29,8 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:weightSum="100">
+                android:weightSum="100"
+                android:layout_marginBottom="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -59,7 +52,8 @@
                     android:maxLines="1"
                     android:singleLine="true"
                     android:layout_weight="85"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="#000000" />
             </LinearLayout>
 
                 <EditText
@@ -73,7 +67,9 @@
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:singleLine="true"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="10dp" />
 
             <Button
                 style="?android:textAppearanceSmall"
@@ -86,7 +82,8 @@
                 android:textSize="20sp"
                 android:id="@+id/log_in_button"
                 android:background="#39a344"
-                android:onClick="logInRegister" />
+                android:onClick="logInRegister"
+                android:layout_marginBottom="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -94,7 +91,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/forgot_password"
                 android:id="@+id/textView2"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="220dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -102,8 +100,10 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/Sign_up_long"
                 android:id="@+id/textView"
-                android:paddingTop="210dp"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:onClick="newUser"
+                android:clickable="true" />
 
         </LinearLayout>
     </ScrollView>
